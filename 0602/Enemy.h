@@ -6,6 +6,7 @@
 //　この構造体は、敵の基本的な属性を格納します
 struct Enemy
 {
+public:
 	int ID;
 	const char* Name;
 	int HP;
