@@ -6,7 +6,7 @@ int main()
 {
     Enemy* enemy = EnemyFactory::CreateEnemy(1);
 
-    printf("%s EXP:%d, Gold:%d\n", enemy->Name, enemy->EXP, enemy->Gold);
+    std::cout << enemy->Data.Name << " EXP:" << enemy->Data.EXP << ", Gold:" << enemy->Data.Gold << std::endl;
 
     delete enemy;
 
