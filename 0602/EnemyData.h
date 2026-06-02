@@ -14,5 +14,6 @@ struct EnemyData
 	int SPD;
 	int Gold;
 	int EXP;
+	int CriticalRate;
 	Element Element;
 };
